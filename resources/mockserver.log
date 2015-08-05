@@ -1,0 +1,9 @@
+2015-05-07 11:57:13,106 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 11:58:43,610 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 11:58:49,799 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 12:00:01,711 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 16:10:49,338 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 16:22:18,089 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 16:24:25,851 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 16:32:32,283 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543
+2015-05-07 16:42:23,357 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:54] MockServer starting up serverPort 6543

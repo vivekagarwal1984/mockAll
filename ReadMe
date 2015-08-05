@@ -1,0 +1,45 @@
+The purpose of this tool is to simulate multiple servers at the same time for integration testing. In any large architecture there are lot of interdependent systems.
+This tool will help to mock multiple systems at the same time so that testing is not dependent on external entities.
+
+In this mockAll tool, each system/server consists of a file(can be a yaml/csv). The File consists of multiple expectations. Each expectation is a combination of a request and response.
+Each server/file is associated with a port. When the mockServer boots up on a particular port, it reads all the expectations and caches the requests in-memory. When a request comes on that port which matches a request caches, it reads the file for the corresponding responses to be sent.
+
+-How to start the mockServer:
+java -jar tester-mockall-1.0.jar mockServer.conf
+
+-Structure of mockServer.conf:
+server1.csv:5000
+server2.yml:5001
+
+This will start the server1 and server2 on ports 5000 and 5001 respectively with the expectations mentioned in the csv and yml files.
+
+- Structure of the *.csv and *.yml files
+Check the resources directory for the same.
+
+-Points to remember while creating the csv/yml
+    i) The csv is '#' de-limited. (The json in the csv contains ",", so it cannot be the delimiter).
+
+    ii) The csv file needs to have the following syntax: (We call them attributes)
+        testid	                    : Used to find a particular TC. Will be used to map to the client's TC number.
+        ReqwithPath	                : Consists of the path parameter. Should start with a "/"
+        ReqwithQueryStringParameter	: Multiple query string can be mentioned here separated by "&"
+        ReqwithBody	                : Can be a body string or file. String ending with *.json will be treated as a file for the body to be read from
+        ReqwithCookies	            : Can be multiple key value pair separated by "&". Each name and value are separated using "="
+        ReqwithMethod               : GET, PUT, POST
+        ReqwithHeaders              : Can be multiple key value pair separated by "&". Each name and value are separated using ":"
+
+        ReswithHeaders              : Can be multiple key value pair separated by "&". Each name and value are separated using ":"
+        Reswithcookies              : Can be multiple key value pair separated by "&". Each name and value are separated using "="
+        ReswithDelay                : Delay in sending the response in MILLISECONDS
+        ReswithStatusCode           : Status code
+        ResBody                     : Can be a body string or file. String ending with *.json will be treated as a file for the body to be read from
+        Res*2, Res*3...             : A request can be made to send multiple response using Res*2 as in a queue. The Res*2 will be merged over Res* to create an extra response.
+
+    iii) Regular expressions are usable for all request matching: http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html
+
+
+- Difference between csv and yml file
+    i)  In csv, if a particular attribute needs not be verified for request expectation, then it has to be done using regex to match anything.(since the column name has be mandatory).
+        In yml, we just do not mention the field.
+    Yaml is always the preferred format.
+

@@ -1,0 +1,2393 @@
+2015-04-24 16:16:10,413 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-24 16:20:30,742 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-24 16:23:38,489 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-24 16:36:43,592 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-27 10:49:40,252 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-27 14:33:30,963 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-28 10:34:21,461 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-28 13:56:15,928 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-28 14:09:58,919 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 10:42:36,104 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 13:47:29,396 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 13:47:29,511 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 14:10:13,213 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 14:10:13,307 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 14:40:26,288 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 14:40:27,187 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 14:55:09,692 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 14:55:09,696 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 15:59:53,103 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 15:59:53,110 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 15:59:53,548 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 15:59:53,560 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "sources",
+      "values" : [ "thin" ]
+    }, {
+      "name" : "collate",
+      "values" : [ "false" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:08:20,388 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:08:20,413 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:08:21,439 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:08:21,496 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "sources",
+      "values" : [ "thin" ]
+    }, {
+      "name" : "collate",
+      "values" : [ "false" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:11:29,226 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:11:29,390 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:11:29,750 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:11:29,789 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "sources",
+      "values" : [ "thin" ]
+    }, {
+      "name" : "collate",
+      "values" : [ "false" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:15:38,423 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:15:38,600 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:15:38,876 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-29 16:15:38,894 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-30 10:55:10,506 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/userservice/v0.1/customer/email",
+    "queryStringParameters" : [ {
+      "name" : "id",
+      "values" : [ "electronicpunditz@gmail.com" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-30 10:55:10,523 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-30 10:55:10,838 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-04-30 10:55:10,849 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "body" : "",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:57:14,081 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:57:14,357 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:57:14,400 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:57:14,461 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:57:14,505 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:57:14,521 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:44,005 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:44,074 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:44,100 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:44,241 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:44,252 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:44,257 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:50,283 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:50,370 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:50,407 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:50,492 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : ".*",
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:50,543 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 11:58:50,555 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 12:00:02,153 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 12:00:02,261 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 12:00:02,270 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:10:50,135 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:10:50,258 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:10:50,270 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:22:18,628 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:22:18,724 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders",
+    "queryStringParameters" : [ {
+      "name" : "include_offers",
+      "values" : [ "false" ]
+    }, {
+      "name" : "external_id",
+      "values" : [ "OD505011630002" ]
+    }, {
+      "name" : "include_returns",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_event_logs",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_history",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_call_verifications",
+      "values" : [ "false" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    }, {
+      "name" : "exact_total",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "false" ]
+    }, {
+      "name" : "include_item_attributes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "include_assoc",
+      "values" : [ "false" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:22:18,731 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:24:26,291 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:32:32,835 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
+2015-05-07 16:42:23,899 {
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/orders/",
+    "queryStringParameters" : [ {
+      "name" : "page_number",
+      "values" : [ "1" ]
+    }, {
+      "name" : "include_notes",
+      "values" : [ "true" ]
+    }, {
+      "name" : "XSellerId",
+      "values" : [ "FKMP" ]
+    }, {
+      "name" : "bill_to_party_id",
+      "values" : [ "ACC13534876363885908" ]
+    }, {
+      "name" : "page_size",
+      "values" : [ "10" ]
+    }, {
+      "name" : "order",
+      "values" : [ "desc" ]
+    } ],
+    "headers" : [ {
+      "name" : ".*",
+      "values" : [ ".*" ]
+    } ]
+  },
+  "httpCallback" : {
+    "callbackClass" : "com.flipkart.cid.callback.HandleMultipleResponse"
+  },
+  "times" : {
+    "remainingTimes" : 0,
+    "unlimited" : true
+  }
+}
