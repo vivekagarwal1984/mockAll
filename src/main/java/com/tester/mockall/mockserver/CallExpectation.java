@@ -21,7 +21,7 @@ import java.util.Map;
 public class CallExpectation {
 
 
-    public static final String callbackClassName = "com.flipkart.cid.callback.HandleMultipleResponse";
+    public static final String callbackClassName = "com.tester.mockall.callback.HandleMultipleResponse";
     static Logger logger = Logger.getLogger(
             CallExpectation.class.getName());
 
