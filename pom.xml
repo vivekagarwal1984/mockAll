@@ -27,12 +27,6 @@
             <url>http://repository.codehaus.org</url>
         </repository>
         <repository>
-            <id>flipkart-libs-release-local</id>
-            <name>Flipkart local release libraries</name>
-            <url>http://artifactory.nm.flipkart.com:8081/artifactory/libs-release-local</url>
-        </repository>
-
-        <repository>
             <id>Sonatype-public</id>
             <name>SnakeYAML repository</name>
             <url>http://oss.sonatype.org/content/groups/public/</url>
@@ -48,9 +42,9 @@
         </dependency>
 
         <dependency>
-            <groupId>javacsv</groupId>
+            <groupId>net.sourceforge.javacsv</groupId>
             <artifactId>javacsv</artifactId>
-            <version>javacsv</version>
+            <version>2.0</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
