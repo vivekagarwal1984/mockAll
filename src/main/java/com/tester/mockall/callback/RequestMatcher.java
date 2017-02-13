@@ -4,6 +4,7 @@ import com.tester.mockall.mockserver.ExpectationElements;
 import org.apache.log4j.Logger;
 import org.mockserver.model.Header;
 import org.mockserver.model.HttpRequest;
+import org.mockserver.model.NottableString;
 import org.mockserver.model.Parameter;
 
 import java.util.HashMap;
@@ -23,13 +24,13 @@ public class RequestMatcher {
 
         ExpectationElements expect = new ExpectationElements();
 
-        if ((compareRegexAndSimple(request.getMethod(), expect.getReqwithMethod(expectationMap))) != 0) {
+        if ((compareRegexAndSimple(String.valueOf(request.getMethod()), expect.getReqwithMethod(expectationMap))) != 0) {
             logger.debug("Actual:" + request.getMethod() + ", Expected:" + expect.getReqwithMethod(expectationMap));
             logger.debug("Method does not match");
             return 1;
         }
 
-        if((compareRegexAndSimple(request.getPath(),expect.getReqwithPath(expectationMap))) != 0) {
+        if((comparePathRegexAndSimple(String.valueOf(request.getPath()),expect.getReqwithPath(expectationMap))) != 0) {
             logger.debug("Actual:" + request.getPath() + ", Expected:" + expect.getReqwithPath(expectationMap));
             logger.debug("Path does not match");
             return 1;
@@ -80,16 +81,33 @@ public class RequestMatcher {
             return 1;
 
         //Regex Comparison only if expected has regex=
-        //if (expected.startsWith("regex=")) {
-         //   expected = expected.substring(6);
+        if (expected.startsWith("regex=")) {
+            expected = expected.substring(6);
 
 
             Pattern p = Pattern.compile(expected);
             Matcher m = p.matcher(actual);
             if (m.matches())
                 return 0;
-       // }
+        }
 
+        return 1;
+
+    }
+
+    public static int comparePathRegexAndSimple (String actual, String expected) {
+        //Exact Comparison
+        if(( actual.equalsIgnoreCase(expected)) || (expected == null))
+            return 0;
+
+        if((expected.equals("") && !actual.equals("")) || (!expected.equals("") && actual.equals("")))
+            return 1;
+
+        //Regex Comparison
+        Pattern p = Pattern.compile(expected);
+        Matcher m = p.matcher(actual);
+        if (m.matches())
+            return 0;
         return 1;
 
     }
@@ -110,13 +128,13 @@ public class RequestMatcher {
 
             boolean keyMatch;
             for(Parameter exp: expected) {
-                String eKey = exp.getName();
-                List<String> eValues = exp.getValues();
+                String eKey = String.valueOf(exp.getName());
+                List<NottableString> eValues = exp.getValues();
 
                 keyMatch = false;
                 for (Parameter av : actual) {
-                    String aKey = av.getName();
-                    List<String> aValues = av.getValues();
+                    String aKey = String.valueOf(av.getName());
+                    List<NottableString> aValues = av.getValues();
 
                     Pattern pattern = Pattern.compile(eKey);
                     Matcher matcher = pattern.matcher(aKey);
@@ -124,11 +142,11 @@ public class RequestMatcher {
                     if (matcher.matches())//Regex match
                     {
                         keyMatch = true;
-                        for (String eValue : eValues) {
+                        for (NottableString eValue : eValues) {
                             boolean flag = false;
-                            for (String aValue : aValues) {
-                                pattern = Pattern.compile(eValue);
-                                matcher = pattern.matcher(aValue);
+                            for (NottableString aValue : aValues) {
+                                pattern = Pattern.compile(String.valueOf(eValue));
+                                matcher = pattern.matcher((CharSequence) aValue);
                                 if (matcher.matches()) {
                                     flag = true;
                                     break;
@@ -165,13 +183,13 @@ public class RequestMatcher {
         boolean keyMatch = false;
         for(Header exp: expected)
         {
-            String eKey = exp.getName();
-            List<String> eValues = exp.getValues();
+            String eKey = String.valueOf(exp.getName());
+            List<NottableString> eValues = exp.getValues();
 
             for(Header av: actual)
             {
-                String aKey = av.getName();
-                List<String> aValues = av.getValues();
+                String aKey = String.valueOf(av.getName());
+                List<NottableString> aValues = av.getValues();
 
                 Pattern pattern = Pattern.compile(eKey);
                 Matcher matcher = pattern.matcher(aKey);
@@ -179,13 +197,13 @@ public class RequestMatcher {
                 if (matcher.matches())//Regex match
                 {
                     keyMatch = true;
-                    for(String eValue: eValues)
+                    for(NottableString eValue: eValues)
                     {
                         boolean flag = false;
-                        for(String aValue: aValues)
+                        for(NottableString aValue: aValues)
                         {
-                            pattern = Pattern.compile(eValue);
-                            matcher = pattern.matcher(aValue);
+                            pattern = Pattern.compile(String.valueOf(eValue));
+                            matcher = pattern.matcher((CharSequence) aValue);
                             if (matcher.matches())
                             {
                                 flag = true;

@@ -81,9 +81,11 @@ public class ExpectationElements {
             }
 
             if (reqBody.startsWith("regex=")) {
-                return new StringBody(reqBody.trim(), Body.Type.REGEX);
+                return new RegexBody(reqBody.trim());
+                //return new StringBody(reqBody.trim(), Body.Type.REGEX);
             } else {
-                return new StringBody(reqBody.trim(), Body.Type.JSON);
+                return new JsonBody(reqBody.trim());
+                //return new StringBody(reqBody.trim(), Body.Type.JSON);
             }
         } else {
             return null;
