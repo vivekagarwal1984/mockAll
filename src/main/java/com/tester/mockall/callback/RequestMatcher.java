@@ -80,15 +80,15 @@ public class RequestMatcher {
             return 1;
 
         //Regex Comparison only if expected has regex=
-        if (expected.startsWith("regex=")) {
-            expected = expected.substring(6);
+        //if (expected.startsWith("regex=")) {
+         //   expected = expected.substring(6);
 
 
             Pattern p = Pattern.compile(expected);
             Matcher m = p.matcher(actual);
             if (m.matches())
                 return 0;
-        }
+       // }
 
         return 1;
 
