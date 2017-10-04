@@ -20,8 +20,6 @@ import java.util.Map;
  */
 public class CallExpectation {
 
-
-    public static final String callbackClassName = "com.tester.mockall.callback.HandleMultipleResponse";
     static Logger logger = Logger.getLogger(
             CallExpectation.class.getName());
 
@@ -117,10 +115,10 @@ public class CallExpectation {
         }
 
         if(! Strings.isNullOrEmpty(expectations.get("callbackClass"))) {
-            Expectation.createCallbackwithClass(mockServer, exRequest, callbackClassName);
+            Expectation.createCallbackwithClass(mockServer, exRequest);
         } else {
            // Expectation.createExpectation(mockServer, exRequest, exResponse);
-            Expectation.createCallbackwithClass(mockServer, exRequest, callbackClassName);
+            Expectation.createCallbackwithClass(mockServer, exRequest);
         }
     }
 
