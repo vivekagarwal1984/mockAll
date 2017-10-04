@@ -5,36 +5,36 @@ package com.tester.mockall.mockserver; /**
 
 import org.apache.log4j.Logger;
 import org.mockserver.integration.ClientAndServer;
-import org.mockserver.model.HttpCallback;
 import org.mockserver.model.HttpRequest;
 import org.mockserver.model.HttpResponse;
+import org.mockserver.model.HttpClassCallback;
 
 import java.util.Deque;
 import java.util.HashMap;
 
 public class Expectation {
 
+    public static final String callbackClassName = "com.tester.mockall.callback.HandleMultipleResponse";
     //Create a Hashmap to be used for callback classes
     public static HashMap<HashMap, Deque<HttpResponse>> reqToMulResponse = new HashMap<HashMap, Deque<HttpResponse>>();
 
     static Logger logger = Logger.getLogger( Expectation.class.getName());
 
 
-    public static void createCallbackwithClass(ClientAndServer mockServer, HttpRequest request, String classname) {
-        HttpCallback callback = new HttpCallback();
+    public static void createCallbackwithClass(ClientAndServer mockServer, HttpRequest request) {
+        HttpClassCallback callback = new HttpClassCallback();
         logger.debug("Inside createCallbackwithClass");
         logger.debug(request.toString());
         mockServer.dumpToLog()
                 .when(
                         request
                 )
-                .callback(callback.withCallbackClass(classname));
+                .callback(callback.withCallbackClass(callbackClassName));
 
     }
 
 
     public static void createExpectation(ClientAndServer mockServer, HttpRequest request, HttpResponse response) {
-        HttpCallback callback = new HttpCallback();
         logger.debug("Inside createExpectation");
         logger.debug(request.toString());
         mockServer.dumpToLog()

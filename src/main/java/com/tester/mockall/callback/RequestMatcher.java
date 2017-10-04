@@ -4,6 +4,7 @@ import com.tester.mockall.mockserver.ExpectationElements;
 import org.apache.log4j.Logger;
 import org.mockserver.model.Header;
 import org.mockserver.model.HttpRequest;
+import org.mockserver.model.NottableString;
 import org.mockserver.model.Parameter;
 
 import java.util.HashMap;
@@ -23,13 +24,13 @@ public class RequestMatcher {
 
         ExpectationElements expect = new ExpectationElements();
 
-        if ((compareRegexAndSimple(request.getMethod(), expect.getReqwithMethod(expectationMap))) != 0) {
+        if ((compareRegexAndSimple(request.getMethod().getValue(), expect.getReqwithMethod(expectationMap))) != 0) {
             logger.debug("Actual:" + request.getMethod() + ", Expected:" + expect.getReqwithMethod(expectationMap));
             logger.debug("Method does not match");
             return 1;
         }
 
-        if((comparePathRegexAndSimple(request.getPath(),expect.getReqwithPath(expectationMap))) != 0) {
+        if((comparePathRegexAndSimple(request.getPath().getValue(),expect.getReqwithPath(expectationMap))) != 0) {
             logger.debug("Actual:" + request.getPath() + ", Expected:" + expect.getReqwithPath(expectationMap));
             logger.debug("Path does not match");
             return 1;
@@ -128,12 +129,12 @@ public class RequestMatcher {
             boolean keyMatch;
             for(Parameter exp: expected) {
                 String eKey = String.valueOf(exp.getName());
-                List<String> eValues = exp.getValues();
+                List<NottableString> eValues = exp.getValues();
 
                 keyMatch = false;
                 for (Parameter av : actual) {
                     String aKey = String.valueOf(av.getName());
-                    List<String> aValues = av.getValues();
+                    List<NottableString> aValues = av.getValues();
 
                     Pattern pattern = Pattern.compile(eKey);
                     Matcher matcher = pattern.matcher(aKey);
@@ -141,11 +142,11 @@ public class RequestMatcher {
                     if (matcher.matches())//Regex match
                     {
                         keyMatch = true;
-                        for (String eValue : eValues) {
+                        for (NottableString eValue : eValues) {
                             boolean flag = false;
-                            for (String aValue : aValues) {
-                                pattern = Pattern.compile(String.valueOf(eValue));
-                                matcher = pattern.matcher((CharSequence) aValue);
+                            for (NottableString aValue : aValues) {
+                                pattern = Pattern.compile(eValue.getValue());
+                                matcher = pattern.matcher( aValue.getValue());
                                 if (matcher.matches()) {
                                     flag = true;
                                     break;
@@ -183,12 +184,12 @@ public class RequestMatcher {
         for(Header exp: expected)
         {
             String eKey = String.valueOf(exp.getName());
-            List<String> eValues = exp.getValues();
+            List<NottableString> eValues = exp.getValues();
 
             for(Header av: actual)
             {
                 String aKey = String.valueOf(av.getName());
-                List<String> aValues = av.getValues();
+                List<NottableString> aValues = av.getValues();
 
                 Pattern pattern = Pattern.compile(eKey);
                 Matcher matcher = pattern.matcher(aKey);
@@ -196,13 +197,13 @@ public class RequestMatcher {
                 if (matcher.matches())//Regex match
                 {
                     keyMatch = true;
-                    for(String eValue: eValues)
+                    for(NottableString eValue: eValues)
                     {
                         boolean flag = false;
-                        for(String aValue: aValues)
+                        for(NottableString aValue: aValues)
                         {
-                            pattern = Pattern.compile(String.valueOf(eValue));
-                            matcher = pattern.matcher((CharSequence) aValue);
+                            pattern = Pattern.compile(eValue.getValue());
+                            matcher = pattern.matcher( aValue.getValue());
                             if (matcher.matches())
                             {
                                 flag = true;

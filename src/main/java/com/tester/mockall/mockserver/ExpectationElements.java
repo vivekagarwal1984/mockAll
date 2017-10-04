@@ -1,5 +1,6 @@
 package com.tester.mockall.mockserver;
 
+import com.google.common.net.MediaType;
 import org.mockserver.model.*;
 
 import java.io.BufferedReader;
@@ -82,10 +83,10 @@ public class ExpectationElements {
 
             if (reqBody.startsWith("regex=")) {
                 //return new RegexBody(reqBody.trim());
-                return new StringBody(reqBody.trim(), Body.Type.REGEX);
+                return new StringBody(reqBody.trim(), MediaType.ANY_TYPE);
             } else {
                 //return new JsonBody(reqBody.trim());
-                return new StringBody(reqBody.trim(), Body.Type.JSON);
+                return new StringBody(reqBody.trim(), MediaType.JSON_UTF_8);
             }
         } else {
             return null;

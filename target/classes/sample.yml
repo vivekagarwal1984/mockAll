@@ -7,7 +7,7 @@ Expectation1:
 
 Expectation2:
   test-description: Sample Test 2
-  ReqwithPath: /outboundCall/schedule1
-  ReqwithMethod: POST
+  ReqwithPath: /outboundCall.*
+  ReqwithMethod: GET
   ReswithHeaders: Content-Type:application/json
-  ResBody: {"id":123}
+  ResBody: "{\"id\":\"123\"}"
