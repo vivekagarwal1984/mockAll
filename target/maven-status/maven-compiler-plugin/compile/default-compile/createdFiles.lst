@@ -1,9 +1,0 @@
-com/tester/mockall/instantiate/MainClass$Message.class
-com/tester/mockall/instantiate/MainClass.class
-com/tester/mockall/mockserver/Expectation.class
-com/tester/mockall/callback/RequestMatcher.class
-com/tester/mockall/mockserver/ExpectationElements.class
-com/tester/mockall/callback/HandleMultipleResponse.class
-com/tester/mockall/instantiate/Client.class
-com/tester/mockall/mockserver/CallExpectation.class
-com/tester/mockall/utils/Utility.class

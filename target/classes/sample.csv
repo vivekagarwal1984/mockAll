@@ -1,3 +1,0 @@
-testid#ReqwithPath#ReqwithQueryStringParameter#ReqwithBody#ReqwithCookies#ReqwithMethod#ReqwithHeaders#ReswithHeaders#ReswithCookies#ReswithDelay#ReswithStatusCode#ResBody#ResBody2
-default#.*####GET#.*#Content-Type:application/json##0#200#xyzs#
-testid#/comm#######name2=value2; Expires=Wed, 09 Jun 2021 10:18:14 GMT##333#vivek#Vivek1
